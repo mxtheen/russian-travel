@@ -18,7 +18,7 @@
 }
 @media (max-width: 878px){
   .place__paragraph {
-    max-width: 352x;
+    max-width: 352px;
     font-size: 16px;
   }
 }
