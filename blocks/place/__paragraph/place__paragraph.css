@@ -4,11 +4,7 @@
   max-width: 484px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
-}
-
-.place__paragraph:first-of-type {
-  margin-bottom: 26px;
+  line-height: 1.62;
 }
 
 @media (max-width: 1024px) {
@@ -18,19 +14,20 @@
 }
 @media (max-width: 878px){
   .place__paragraph {
-    max-width: 352px;
+    max-width: 456px;
     font-size: 16px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 625px) {
   .place__paragraph {
     grid-column: 1/2;
+    margin: auto;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 425px) {
   .place__paragraph {
     max-width: 288px;
-    margin: 0 auto;
   }
 }

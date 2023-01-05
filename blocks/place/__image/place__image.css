@@ -3,7 +3,7 @@
   grid-row: span 3;
   width: 100%;
 }
-@media (max-width: 550px) {
+@media (max-width: 625px) {
   .place__image {
     margin: 0 auto 32px;
   }

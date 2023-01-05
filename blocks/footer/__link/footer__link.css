@@ -3,22 +3,12 @@
   color: white;
   transition: 0.1s;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.125;
 }
 .footer__link:hover {
-  opacity: 50%;
-}
-@media (max-width: 1024px) {
-  .footer__link{
-    max-width: 928px;
-  }
+  opacity: 80%;
 }
 
-@media (max-width: 768px){
-  .footer__link{
-    max-width: 720px;
-  }
-}
 
 @media (max-width: 625px) {
   .footer__link{

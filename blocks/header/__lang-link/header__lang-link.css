@@ -1,13 +1,16 @@
 .header__lang-link {
   font-size: 24px;
-  line-height: 1.2;
-  margin-right: 18px;
+  line-height: 1.16;
   align-self: center;
-  cursor: pointer;
+  color:white;
+  text-decoration: none;
 }
-.header__lang-link:first-of-type {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 80%;
 }
-.header__lang-link:last-of-type {
-  margin-right: 0px;
+@media (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }
