@@ -4,6 +4,7 @@
   align-self: center;
   color:white;
   text-decoration: none;
+  transition: 0.1s;
 }
 .header__lang-link:hover {
   opacity: 80%;
