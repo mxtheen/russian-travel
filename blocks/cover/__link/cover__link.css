@@ -23,7 +23,7 @@
   left: 0;
   transition: .3s ease;
 }
-.cover__link:hover:before{
+.cover__link:hover::before{
   background-color: rgba(42, 44, 47,80%);
 }
 
