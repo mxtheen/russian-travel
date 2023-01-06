@@ -10,10 +10,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
-.cover__link:before {
+.cover__link::before {
   content: "";
   background-color: rgba(42, 44, 47,30%);
   width: 100%;

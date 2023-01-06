@@ -15,7 +15,12 @@
     column-gap: 32px;
   }
   .place:last-of-type {
-    margin: 0 auto;
+    margin: auto;
+  }
+}
+@media (max-width: 916px) {
+  .place {
+    grid-template-columns:minmax(auto, 440px) 400px;
   }
 }
 @media (max-width: 768px){
